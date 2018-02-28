@@ -8,7 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.heocon.quanlythuchi.R;
+import com.heocon.company.quanlythuchi.R;
+
 
 public class AdapterNavigation extends ArrayAdapter<String> {
     private Activity a;

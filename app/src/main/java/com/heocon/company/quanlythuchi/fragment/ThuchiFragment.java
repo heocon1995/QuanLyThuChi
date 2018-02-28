@@ -19,6 +19,7 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.activity.GiaodichActivity;
 
 
@@ -29,7 +30,7 @@ import com.heocon.company.quanlythuchi.adapter.AdapterGridview;
 import com.heocon.company.quanlythuchi.adapter.AdapterThuchi;
 import com.heocon.company.quanlythuchi.model.ArrGiaodien;
 import com.heocon.company.quanlythuchi.model.ArrNavigation;
-import com.heocon.quanlythuchi.R;
+
 
 public class ThuchiFragment extends Fragment {
     private String matk, ngaythang;

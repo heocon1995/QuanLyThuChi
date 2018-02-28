@@ -25,7 +25,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.heocon.quanlythuchi.R;
+import com.heocon.company.quanlythuchi.R;
 
 
 public class MainActivity extends Activity {

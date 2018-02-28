@@ -14,7 +14,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.heocon.quanlythuchi.R;
+import com.heocon.company.quanlythuchi.R;
 
 
 public class DangkyActivity extends Activity {

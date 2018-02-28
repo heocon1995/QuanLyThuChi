@@ -19,9 +19,10 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.adapter.AdapterThongke;
 import com.heocon.company.quanlythuchi.model.ArrThongke;
-import com.heocon.quanlythuchi.R;
+
 
 public class ThongkeFragment extends Fragment {
     private SQLiteDatabase data;

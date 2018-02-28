@@ -28,9 +28,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.adapter.AdapterCaidat;
 import com.heocon.company.quanlythuchi.model.ArrCaidat;
-import com.heocon.quanlythuchi.R;
+
 
 public class CaidatFragment extends Fragment {
     private SQLiteDatabase data;

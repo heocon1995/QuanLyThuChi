@@ -19,9 +19,9 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.adapter.AdapterThongtin;
 import com.heocon.company.quanlythuchi.model.ArrThongtin;
-import com.heocon.quanlythuchi.R;
 
 public class ThongtinFragment extends Fragment {
     private SQLiteDatabase data;

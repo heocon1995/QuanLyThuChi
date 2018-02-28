@@ -10,8 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.model.ArrCaidat;
-import com.heocon.quanlythuchi.R;
+
 
 public class AdapterCaidat extends ArrayAdapter<ArrCaidat> {
     private Activity activity;

@@ -27,7 +27,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 
-import com.heocon.quanlythuchi.R;
+import com.heocon.company.quanlythuchi.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

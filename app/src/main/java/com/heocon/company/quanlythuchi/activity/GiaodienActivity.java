@@ -20,9 +20,10 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.adapter.AdapterGiaodien;
 import com.heocon.company.quanlythuchi.adapter.AdapterNavigation;
-import com.heocon.quanlythuchi.R;
+
 
 public class GiaodienActivity extends AppCompatActivity {
     private Toolbar toolbar;

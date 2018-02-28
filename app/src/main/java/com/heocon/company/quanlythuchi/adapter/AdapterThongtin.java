@@ -10,8 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.model.ArrThongtin;
-import com.heocon.quanlythuchi.R;
+
 
 public class AdapterThongtin extends ArrayAdapter<ArrThongtin> {
     private Activity a;

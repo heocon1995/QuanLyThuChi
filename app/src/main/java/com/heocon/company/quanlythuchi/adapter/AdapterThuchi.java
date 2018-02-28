@@ -15,8 +15,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.model.ArrGiaodien;
-import com.heocon.quanlythuchi.R;
+
 
 public class AdapterThuchi extends ArrayAdapter<ArrGiaodien> {
     private Activity a;

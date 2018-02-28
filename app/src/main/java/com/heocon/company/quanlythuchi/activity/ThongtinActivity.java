@@ -20,8 +20,9 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.adapter.AdapterThongtinFragment;
-import com.heocon.quanlythuchi.R;
+
 
 public class ThongtinActivity extends AppCompatActivity {
     private SQLiteDatabase data;

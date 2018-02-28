@@ -12,8 +12,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import com.heocon.company.quanlythuchi.R;
 import com.heocon.company.quanlythuchi.model.ArrThongke;
-import com.heocon.quanlythuchi.R;
+
 
 public class AdapterThongke extends BaseExpandableListAdapter {
     private Context c;
