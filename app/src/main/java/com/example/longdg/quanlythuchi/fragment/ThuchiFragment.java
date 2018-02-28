@@ -1,4 +1,4 @@
-package fragment_page;
+package com.example.longdg.quanlythuchi.fragment;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -19,16 +19,16 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import com.example.longdg.quanlythuchi.GiaodichActivity;
+import com.example.longdg.quanlythuchi.activity.GiaodichActivity;
 import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import adapter.AdapterGridview;
-import adapter.AdapterThuchi;
-import model.ArrGiaodien;
-import model.ArrNavigation;
+import com.example.longdg.quanlythuchi.adapter.AdapterGridview;
+import com.example.longdg.quanlythuchi.adapter.AdapterThuchi;
+import com.example.longdg.quanlythuchi.model.ArrGiaodien;
+import com.example.longdg.quanlythuchi.model.ArrNavigation;
 
 public class ThuchiFragment extends Fragment {
     private String matk, ngaythang;

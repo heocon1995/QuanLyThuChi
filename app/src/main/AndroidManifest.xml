@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -18,19 +18,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DangkyActivity"
+            android:name=".activity.DangkyActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".GiaodienActivity"
+            android:name=".activity.GiaodienActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".GiaodichActivity"
+            android:name=".activity.GiaodichActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".ThongtinActivity"
+            android:name=".activity.ThongtinActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"></activity>
     </application>

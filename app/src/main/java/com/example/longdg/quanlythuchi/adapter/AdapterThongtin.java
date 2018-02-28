@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 
-import model.ArrThongtin;
+import com.example.longdg.quanlythuchi.model.ArrThongtin;
 
 public class AdapterThongtin extends ArrayAdapter<ArrThongtin> {
     private Activity a;

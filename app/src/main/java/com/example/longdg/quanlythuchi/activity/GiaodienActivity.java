@@ -1,4 +1,4 @@
-package com.example.longdg.quanlythuchi;
+package com.example.longdg.quanlythuchi.activity;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -18,8 +18,9 @@ import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import adapter.AdapterGiaodien;
-import adapter.AdapterNavigation;
+import com.example.longdg.quanlythuchi.R;
+import com.example.longdg.quanlythuchi.adapter.AdapterGiaodien;
+import com.example.longdg.quanlythuchi.adapter.AdapterNavigation;
 
 public class GiaodienActivity extends AppCompatActivity {
     private Toolbar toolbar;

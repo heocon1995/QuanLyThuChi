@@ -1,4 +1,4 @@
-package com.example.longdg.quanlythuchi;
+package com.example.longdg.quanlythuchi.activity;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -25,6 +25,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.example.longdg.quanlythuchi.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

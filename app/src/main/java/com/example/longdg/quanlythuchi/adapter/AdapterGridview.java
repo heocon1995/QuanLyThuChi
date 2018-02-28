@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 
-import model.ArrNavigation;
+import com.example.longdg.quanlythuchi.model.ArrNavigation;
 
 public class AdapterGridview extends BaseAdapter {
     private Activity a;

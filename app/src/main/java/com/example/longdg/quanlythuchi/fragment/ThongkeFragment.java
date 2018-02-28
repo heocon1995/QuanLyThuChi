@@ -1,4 +1,4 @@
-package fragment_page;
+package com.example.longdg.quanlythuchi.fragment;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -21,8 +21,8 @@ import com.example.longdg.quanlythuchi.R;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import adapter.AdapterThongke;
-import model.ArrThongke;
+import com.example.longdg.quanlythuchi.adapter.AdapterThongke;
+import com.example.longdg.quanlythuchi.model.ArrThongke;
 
 public class ThongkeFragment extends Fragment {
     private SQLiteDatabase data;

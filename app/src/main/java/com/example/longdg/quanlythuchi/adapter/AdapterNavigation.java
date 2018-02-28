@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;

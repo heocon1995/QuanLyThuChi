@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
-import fragment_page.ThongtinFragment;
+import com.example.longdg.quanlythuchi.fragment.ThongtinFragment;
 
 public class AdapterThongtinFragment extends FragmentPagerAdapter {
     private ArrayList<String> arr;

@@ -1,4 +1,4 @@
-package com.example.longdg.quanlythuchi;
+package com.example.longdg.quanlythuchi.activity;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -9,8 +9,6 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -20,9 +18,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Date;
 
-import adapter.AdapterThongtinFragment;
+import com.example.longdg.quanlythuchi.R;
+import com.example.longdg.quanlythuchi.adapter.AdapterThongtinFragment;
 
 public class ThongtinActivity extends AppCompatActivity {
     private SQLiteDatabase data;

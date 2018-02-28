@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -16,7 +16,7 @@ import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 
-import model.ArrGiaodien;
+import com.example.longdg.quanlythuchi.model.ArrGiaodien;
 
 public class AdapterThuchi extends ArrayAdapter<ArrGiaodien> {
     private Activity a;

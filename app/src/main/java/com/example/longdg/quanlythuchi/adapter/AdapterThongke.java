@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,7 +12,7 @@ import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 
-import model.ArrThongke;
+import com.example.longdg.quanlythuchi.model.ArrThongke;
 
 public class AdapterThongke extends BaseExpandableListAdapter {
     private Context c;

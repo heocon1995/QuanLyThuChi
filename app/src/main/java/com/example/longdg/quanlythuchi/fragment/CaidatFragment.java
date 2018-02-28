@@ -1,4 +1,4 @@
-package fragment_page;
+package com.example.longdg.quanlythuchi.fragment;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -29,8 +29,8 @@ import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 
-import adapter.AdapterCaidat;
-import model.ArrCaidat;
+import com.example.longdg.quanlythuchi.adapter.AdapterCaidat;
+import com.example.longdg.quanlythuchi.model.ArrCaidat;
 
 public class CaidatFragment extends Fragment {
     private SQLiteDatabase data;

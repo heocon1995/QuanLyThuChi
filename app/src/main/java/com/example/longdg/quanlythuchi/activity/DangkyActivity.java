@@ -1,4 +1,4 @@
-package com.example.longdg.quanlythuchi;
+package com.example.longdg.quanlythuchi.activity;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -13,6 +13,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.longdg.quanlythuchi.R;
 
 public class DangkyActivity extends Activity {
     private SQLiteDatabase data;

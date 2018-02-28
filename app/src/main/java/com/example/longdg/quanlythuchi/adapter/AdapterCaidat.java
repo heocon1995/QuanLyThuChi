@@ -1,4 +1,4 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
-import model.ArrCaidat;
+import com.example.longdg.quanlythuchi.model.ArrCaidat;
 
 public class AdapterCaidat extends ArrayAdapter<ArrCaidat> {
     private Activity activity;

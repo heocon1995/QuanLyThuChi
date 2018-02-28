@@ -1,15 +1,9 @@
-package com.example.longdg.quanlythuchi;
+package com.example.longdg.quanlythuchi.activity;
 /**
  * Created by longdg on 12/12/2015.
  */
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
@@ -19,9 +13,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.animation.Animation;
@@ -32,6 +24,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import com.example.longdg.quanlythuchi.R;
 
 public class MainActivity extends Activity {
     private SQLiteDatabase data;

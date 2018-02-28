@@ -1,4 +1,4 @@
-package model;
+package com.example.longdg.quanlythuchi.model;
 
 /**
  * Created by longdg on 12/12/2015.

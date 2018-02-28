@@ -1,4 +1,4 @@
-package fragment_page;
+package com.example.longdg.quanlythuchi.fragment;
 
 /**
  * Created by longdg on 12/12/2015.
@@ -20,8 +20,8 @@ import com.example.longdg.quanlythuchi.R;
 
 import java.util.ArrayList;
 
-import adapter.AdapterThongtin;
-import model.ArrThongtin;
+import com.example.longdg.quanlythuchi.adapter.AdapterThongtin;
+import com.example.longdg.quanlythuchi.model.ArrThongtin;
 
 public class ThongtinFragment extends Fragment {
     private SQLiteDatabase data;

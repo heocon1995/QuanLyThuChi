@@ -1,12 +1,12 @@
-package adapter;
+package com.example.longdg.quanlythuchi.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import fragment_page.CaidatFragment;
-import fragment_page.ThongkeFragment;
-import fragment_page.ThuchiFragment;
+import com.example.longdg.quanlythuchi.fragment.CaidatFragment;
+import com.example.longdg.quanlythuchi.fragment.ThongkeFragment;
+import com.example.longdg.quanlythuchi.fragment.ThuchiFragment;
 
 public class AdapterGiaodien extends FragmentPagerAdapter {
     private String matk;
