@@ -6,9 +6,9 @@
     <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EEEEEE"
+        android:background="@color/colorGreen_100"
         android:padding="10dp"
-        tools:context="com.example.assignment_mob202.ThuchiActivity">
+        tools:context="com.heocon.assignment_mob202.ThuchiActivity">
 
         <ListView
             android:id="@+id/lvThuchi"

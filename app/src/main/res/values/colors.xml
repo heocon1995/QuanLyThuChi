@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--color Green heocon-->
+    <color name="colorGreen_900">#B71C1C</color>
+    <color name="colorGreen_700">#D32F2F</color>
+    <color name="colorGreen_500">#F44336</color>
+    <color name="colorGreen_300">#E57373</color>
+    <color name="colorGreen_100">#FFCDD2</color>
+    <color name="colorGreen_50">#FFEBEE</color>
 </resources>

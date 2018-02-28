@@ -1,9 +1,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEEEEE">
+    android:background="@color/colorGreen_100">
 
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white_background_radius"
         android:id="@+id/layoutCaidatTop"
         style="@style/WhiteBackground"
         android:layout_width="match_parent"
@@ -17,6 +20,9 @@
     </LinearLayout>
 
     <ListView
+        android:background="@drawable/white_background_radius"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:id="@+id/lvCaidat"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,6 +34,10 @@
 
 
     <RelativeLayout
+        android:background="@drawable/white_background_radius"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
         android:id="@+id/layoutCaidatBottom"
         style="@style/WhiteBackground"
         android:layout_width="match_parent"

@@ -7,6 +7,15 @@
         <item name="colorAccent">#FFFF</item>
     </style>
 
+    <style name="AppTheme_HeoCon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGreen_700</item>
+        <item name="colorPrimaryDark">@color/colorGreen_900</item>
+        <item name="colorAccent">@color/colorGreen_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
     <style name="WhiteText">
         <item name="android:textColor">#FFFF</item>
     </style>

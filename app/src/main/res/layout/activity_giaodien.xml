@@ -1,4 +1,5 @@
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawerlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,6 +11,7 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbarGiaodien"
+            android:background="@color/colorGreen_900"
             style="@style/Toolbar" />
 
         <android.support.design.widget.TabLayout
@@ -23,20 +25,16 @@
 
     <LinearLayout
         android:id="@+id/layoutGiaodien"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#FFFF"
+        android:background="@color/colorGreen_500"
         android:orientation="vertical">
 
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/navigation_icon" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -45,24 +43,30 @@
                 android:gravity="bottom"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginBottom="35dp"
-                    android:src="@mipmap/navigation_logo_2" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/profile_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/heocon" />
+
 
                 <TextView
+                    android:layout_marginTop="30dp"
                     style="@style/WhiteText"
+                    android:textSize="18sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PH03779"
+                    android:text="PH04750"
                     android:textAppearance="?android:textAppearance" />
 
                 <TextView
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
                     style="@style/WhiteText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Do Gia Long"
+                    android:text="Đinh Khắc Nở"
                     android:textAppearance="?android:textAppearance" />
             </LinearLayout>
         </FrameLayout>
@@ -71,7 +75,7 @@
             android:id="@+id/lvDrawer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:choiceMode="singleChoice"
             android:divider="@null"
             android:dividerHeight="1dp" />
